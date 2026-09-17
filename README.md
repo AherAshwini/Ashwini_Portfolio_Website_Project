@@ -1,0 +1,1 @@
+In this project, I'll be developing my personal professional portfolio website from scratch.
