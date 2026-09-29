@@ -1,0 +1,66 @@
+.about {
+  background: var(--paper);
+}
+
+.about__timeline {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+
+.about__stage {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: 20px;
+}
+
+.about__stage-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__stage-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--gradient);
+  flex-shrink: 0;
+  margin-top: 4px;
+  box-shadow: 0 0 0 4px rgba(91, 108, 255, 0.14);
+}
+
+.about__stage-line {
+  width: 2px;
+  flex: 1;
+  min-height: 24px;
+  background: linear-gradient(180deg, var(--accent-blue), var(--accent-purple));
+  opacity: 0.35;
+}
+
+.about__stage-content {
+  padding-bottom: 22px;
+}
+
+.about__stage-year {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--accent-purple);
+  margin-bottom: 4px;
+}
+
+.about__stage-title {
+  font-size: 1.12rem;
+  margin-bottom: 6px;
+}
+
+.about__stage-desc {
+  color: var(--ink-500);
+  font-size: 0.97rem;
+  max-width: 620px;
+}
+
+.about__stage:last-child .about__stage-content {
+  padding-bottom: 0;
+}

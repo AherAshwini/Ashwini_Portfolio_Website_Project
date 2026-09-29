@@ -1,0 +1,24 @@
+.resume-section {
+  background: var(--navy-950);
+}
+
+.resume-section .eyebrow {
+  color: #b9c0ff;
+}
+
+.resume-section .section-heading,
+.resume-section .section-sub {
+  color: #fff;
+}
+
+.resume-section .section-sub {
+  color: rgba(226, 229, 250, 0.75);
+}
+
+.resume__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}

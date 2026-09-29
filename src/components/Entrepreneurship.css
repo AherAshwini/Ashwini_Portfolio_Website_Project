@@ -1,0 +1,147 @@
+.entrepreneurship {
+  background: var(--paper-soft);
+}
+
+.entrepreneurship__product-label {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.entrepreneurship__panel {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 40px;
+  align-items: center;
+  background: #f2f9f4;
+  border: 1px solid #d9ecdd;
+  border-radius: var(--radius-lg);
+  padding: 40px;
+}
+
+.entrepreneurship__badge {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #1f8a4c;
+  background: #dff3e4;
+  border: 1px solid #bde5c6;
+  padding: 5px 12px;
+  border-radius: 999px;
+  margin-bottom: 14px;
+}
+
+.entrepreneurship__tagline {
+  font-size: 1.35rem;
+  margin-bottom: 12px;
+}
+
+.entrepreneurship__desc {
+  color: var(--ink-700);
+  font-size: 1rem;
+  margin-bottom: 24px;
+  max-width: 480px;
+}
+
+.entrepreneurship__workflow {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  margin-bottom: 22px;
+}
+
+.entrepreneurship__step {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #fff;
+  border: 1px solid #d9ecdd;
+  border-radius: var(--radius-md);
+  padding: 12px 14px;
+}
+
+.entrepreneurship__step-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #dff3e4;
+  color: #1f8a4c;
+}
+
+.entrepreneurship__step:nth-child(2) .entrepreneurship__step-icon {
+  background: #e6ecff;
+  color: var(--accent-blue);
+}
+
+.entrepreneurship__step:nth-child(3) .entrepreneurship__step-icon {
+  background: #f3e8ff;
+  color: var(--accent-purple);
+}
+
+.entrepreneurship__step:nth-child(4) .entrepreneurship__step-icon {
+  background: #fff1de;
+  color: #c8791f;
+}
+
+.entrepreneurship__step-label {
+  font-size: 0.87rem;
+  font-weight: 600;
+  color: var(--ink-900);
+}
+
+.entrepreneurship__recognition {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  background: #fff;
+  border: 1px solid #d9ecdd;
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+  margin-bottom: 22px;
+  color: #1f8a4c;
+}
+
+.entrepreneurship__recognition-label {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--ink-900);
+}
+
+.entrepreneurship__recognition-detail {
+  font-size: 0.82rem;
+  color: var(--ink-500);
+  margin-top: 2px;
+}
+
+.entrepreneurship__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.entrepreneurship__media {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+}
+
+.entrepreneurship__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 890 / 640;
+}
+
+@media (max-width: 900px) {
+  .entrepreneurship__panel {
+    grid-template-columns: 1fr;
+    padding: 28px 22px;
+  }
+
+  .entrepreneurship__workflow {
+    grid-template-columns: 1fr;
+  }
+}
