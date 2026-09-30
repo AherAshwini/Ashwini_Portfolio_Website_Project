@@ -9,8 +9,7 @@ import smartChefImg from '../assets/projects/smart-ai-chef.jpg'
 // metrics the résumé explicitly states are shown (~92% accuracy, R² ≈ 0.93,
 // 10,000 simulated UEs) — nothing else is claimed.
 //
-// githubUrl is a PLACEHOLDER (the résumé does not list individual repo
-// URLs) — replace [ADD-REPO-...] with the real repository path.
+// githubUrl values below are the real repo links provided by the site owner.
 export const projects = [
   {
     title: 'Speech-Based Channel Quality Classification',
@@ -18,7 +17,7 @@ export const projects = [
       'Classifies speech channel quality using the Google Speech Commands dataset, with AWGN noise simulated at multiple SNR levels to generate realistic noisy speech. Extracted MFCC, delta-MFCC, and spectral features with Librosa, then performed data analysis and outlier detection in PostgreSQL.',
     results: ['~92% classification accuracy (Logistic Regression / SVM) on test data'],
     tech: ['Python', 'PostgreSQL', 'Pandas', 'Scikit-learn', 'Librosa'],
-    githubUrl: 'https://github.com/AherAshwini/[ADD-REPO-CHANNEL-QUALITY]',
+    githubUrl: 'https://github.com/AherAshwini/Speech_Based_Channel_Quality_Classification_Project',
     image: speechImg,
   },
   {
@@ -27,7 +26,7 @@ export const projects = [
       'An end-to-end pipeline integrating PostgreSQL with Python for data ingestion, preprocessing, and modeling. Simulated a wireless dataset of 10,000 UEs using link-budget principles, including distance, path loss, received power, and SNR as features.',
     results: ['R² ≈ 0.93 predicting SINR (Linear Regression / Ridge / Lasso) on test data'],
     tech: ['Python', 'PostgreSQL', 'Pandas', 'Scikit-learn'],
-    githubUrl: 'https://github.com/AherAshwini/[ADD-REPO-SINR-PREDICTION]',
+    githubUrl: 'https://github.com/AherAshwini/SINR_Prediction_Using_ML_Regression_Technique',
     image: sinrImg,
   },
   {
@@ -36,7 +35,7 @@ export const projects = [
       'An end-to-end ML pipeline built with Python, Pandas, and Scikit-learn for student performance prediction, containerized with Docker and deployed as a Flask app on an AWS EC2 instance.',
     results: ['CI/CD via GitHub Actions → Amazon ECR → automated EC2 deployment'],
     tech: ['Python', 'Flask', 'Docker', 'AWS EC2', 'GitHub Actions', 'CI/CD'],
-    githubUrl: 'https://github.com/AherAshwini/[ADD-REPO-STUDENT-PERFORMANCE]',
+    githubUrl: 'https://github.com/AherAshwini/Student_Performance_Indicator_Project',
     image: studentImg,
   },
   {
@@ -45,7 +44,7 @@ export const projects = [
       'Data cleaning and transformation on a Netflix dataset using SQL (CTEs and window functions) and Pandas, with a normalized schema (ERD) designed for relational analysis.',
     results: ['Analyzed content trends across director, genre, and country'],
     tech: ['SQL', 'PostgreSQL', 'Pandas'],
-    githubUrl: 'https://github.com/AherAshwini/[ADD-REPO-NETFLIX-ANALYSIS]',
+    githubUrl: 'https://github.com/AherAshwini/Netflix_Data_Cleaning_Data_Analysis_Project_SQL',
     image: netflixImg,
   },
 ]
