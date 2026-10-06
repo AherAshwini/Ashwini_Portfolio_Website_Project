@@ -35,6 +35,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 72px; /* keeps section headings clear of the sticky navbar */
 }
 
 @media (prefers-reduced-motion: reduce) {

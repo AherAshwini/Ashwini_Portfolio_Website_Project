@@ -21,11 +21,11 @@ export default function App() {
       <main id="main">
         <Hero />
         <About />
+        <Entrepreneurship />
         <Experience />
         <Education />
-        <Projects />
-        <Entrepreneurship />
         <Research />
+        <Projects />
         <Certifications />
         <Blog />
         <Contact />

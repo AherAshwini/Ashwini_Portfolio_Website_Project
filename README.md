@@ -12,7 +12,7 @@ npm run dev       # http://localhost:5173
 ## Other commands
 
 ```bash
-npm run lint      # ESLint (eslint:recommended + react + react-hooks)
+npm run lint      # ESLint 9 (flat config: eslint.config.js)
 npm run build     # production build → dist/
 npm run preview   # preview the production build locally
 ```
